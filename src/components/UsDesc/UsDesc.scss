@@ -1,0 +1,40 @@
+.img_sec {
+    width: 28%;
+    max-width: 100%;
+    height: auto;
+    padding: 0 10px;
+    border-radius: 25px;
+}
+
+.about_sec {
+    height: 80vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .main_sec {
+        width: 1290px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .text_sec {
+        width: 600px;
+        max-width: 100%;
+        padding: 0 10px;
+        h4{
+            margin: 0;
+        }
+        b {
+            color: #C5027B;
+        }
+    
+    
+    }
+}

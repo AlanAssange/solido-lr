@@ -11,6 +11,7 @@ export const UsDesc = () => {
             <p>Nuestra empresa es definida por la capacidad de sus individuos para actuar independientemente y crear sus propias decisiones. En contraste, la estructura de esos factores de influencia no determinan ni limitan tanto lo que brindamos como lo que somos. <br/> Creciendo a la par de nuestros clientes desde 2015.</p>
         
         </div>
+        
         </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavBar } from '../NavBar/NavBar'
+import { OurServs } from '../OurServs/OurServs'
 import { UsDesc } from '../UsDesc/UsDesc'
 import "./HomePage.scss"
 
@@ -15,6 +16,7 @@ export const HomePage = () => {
 
         </div>
         <UsDesc/>
+        <OurServs/>
     </div>
   )
 }

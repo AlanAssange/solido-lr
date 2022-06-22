@@ -24,9 +24,9 @@ export const Home = () => {
             <li><a className='nav_prim' href='#'>CONTACTANOS</a></li>
           </ul>
           </nav>
-          <div className="content" >
+          <div className="contents" >
           <img className="log_landing" src={solidocol}/>
-          <p>Lorem ipsum annui coeptis asdfasdfasd</p>
+          <p>Sólido: Connecting Solutions | Home</p>
           <Link to="/home"><p className="content_button" >ENTRAR</p></Link>
           </div>
         

@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-weight: 600;
+    font-weight: 300;
   }
 
   
@@ -62,13 +62,15 @@ nav ul li:hover::after {
     font-size: 17px;
   }
 
-  .content {
+  .contents {
     text-align: center;
+    
   }
 .log_landing {
       position: relative;
       width: 750px;
   }
+
 
   .content_button {
     display: inline-block;
@@ -90,10 +92,10 @@ nav ul li:hover::after {
 
 
   
-  .content p {
+  .contents p {
     color: #fff;
     font-size: 25px;
-    font-weight: 600;
+    
   }
   
   .land_head{

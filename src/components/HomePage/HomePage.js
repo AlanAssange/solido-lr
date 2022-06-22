@@ -1,4 +1,5 @@
 import React from 'react'
+import { Footer } from '../Footer/Footer'
 import { NavBar } from '../NavBar/NavBar'
 import { OurServs } from '../OurServs/OurServs'
 import { UsDesc } from '../UsDesc/UsDesc'
@@ -17,6 +18,7 @@ export const HomePage = () => {
         </div>
         <UsDesc/>
         <OurServs/>
+        <Footer/>
     </div>
   )
 }

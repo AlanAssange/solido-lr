@@ -1,0 +1,141 @@
+footer {
+    margin: 0;
+    padding: 0;
+ 
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+    color: white;
+   
+}
+
+.solido-logo{
+    width: 300px;
+}
+
+.main-content {
+    display: flex;
+    .box{
+        flex-basis: 50%;
+        padding: 10px 20px;
+        h2 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            }
+        }
+        .content {
+            margin: 20px 0 0 0;
+            position: relative;
+        }
+        .content:before{
+            position: absolute;
+            content: "";
+            top: -10px;
+            height: 2px;
+            width: 100%;
+            background: #1a1a1a;
+        }
+        .content:after{
+            position: absolute;
+            content: "";
+            height: 2px;
+            width: 15%;
+            background: #C5027B;
+            top: -10px;
+        }
+    }
+    
+    
+.left {
+    .content {
+        .p {
+            text-align: justify;
+        }
+        .social {
+            margin: 20px 0 0 0;
+                    a{
+                    padding: 0 2px;
+                    :hover{
+                        background: #C5027B;
+                    }
+                    
+                    span {
+                        width: 90px;
+                        height: 45px;
+                        background: #1a1a1a;
+                        margin: 5px;
+                        border-radius: 5px;
+                        line-height: 40px;
+                        text-align: center;
+                        font-size: 30px;
+                        color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+.brandicon {
+        font-size: 25px;
+        width: 40px;
+        
+    }
+    
+.center {
+    .content{
+        .phone {
+            margin: 10px 0;
+        }
+        .text{
+            font-size: 1rem;
+            font-weight: 500;
+            padding-left: 10px;
+            
+        }
+        .svgicons{
+            font-size: 1.4375rem;
+            text-align: center;
+            line-height: 45px;
+        }
+    }
+    
+}
+
+.bottom {
+    center {
+        padding: 5px;
+        font-size: 0.9375rem;
+        background: #151515;
+
+        span{
+            color: #656565;
+        }
+
+        a{
+            color: #C5027B;
+            text-decoration: none;
+            transition: 1s;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+    footer{
+        position: relative;
+        bottom: 0px;
+    }
+
+    .main-content{
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        .box {
+            margin: 0px;
+        }
+    }
+    
+}

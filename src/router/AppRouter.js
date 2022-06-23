@@ -5,8 +5,8 @@ import { HomePage } from "../components/HomePage/HomePage";
 
 export const AppRouter = () => {
   const routes = useRoutes([
-      { path: "/", element: <Home/> },  
-      { path: "/home", element: <HomePage/> },
+      { path: "/solido-lr", element: <Home/> },  
+      { path: "/solido-lr/home", element: <HomePage/> },
     
    
   ]);

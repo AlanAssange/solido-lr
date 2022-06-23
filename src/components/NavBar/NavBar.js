@@ -11,7 +11,7 @@ export const NavBar = () => {
 
           <img src={solidoc} className="logo"/>
           <ul>
-          <Link to="/"><li>INICIO</li></Link>
+          <Link to="/solido-lr"><li>INICIO</li></Link>
             <li><a href="#">SERVICIOS</a></li>
             {/* <li><a href='#'>EQUIPO</a></li> */}
             <li><a href='https://soporte.solidcloud.com.ar/'>SOPORTE</a></li>

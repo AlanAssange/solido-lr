@@ -28,7 +28,7 @@ export const Home = () => {
           <div className="contents" >
           <img className="log_landing" src={solidocol}/>
           <p>Sólido: Connecting Solutions | Home</p>
-          <Link to="/home"><p className="content_button" >WEB</p></Link>
+          <Link to="/solido-lr/home"><p className="content_button" >WEB</p></Link>
           <a href="https://soporte.solidcloud.com.ar/"><p className="content_button" >SISTEMA</p></a>
 
           </div>

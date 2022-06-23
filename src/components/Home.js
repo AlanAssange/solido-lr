@@ -21,13 +21,16 @@ export const Home = () => {
             {/* <li><a>INICIO</a></li> */}
             <li><a className='nav_prim' href="#">SERVICIOS</a></li>
             <li><a className='nav_prim' href='#'>EQUIPO</a></li>
-            <li><a className='nav_prim' href='#'>CONTACTANOS</a></li>
+            <li><a className='nav_prim' href='https://soporte.solidcloud.com.ar/'>SOPORTE</a></li>
+            
           </ul>
           </nav>
           <div className="contents" >
           <img className="log_landing" src={solidocol}/>
           <p>Sólido: Connecting Solutions | Home</p>
-          <Link to="/home"><p className="content_button" >ENTRAR</p></Link>
+          <Link to="/home"><p className="content_button" >WEB</p></Link>
+          <a href="https://soporte.solidcloud.com.ar/"><p className="content_button" >SISTEMA</p></a>
+
           </div>
         
 

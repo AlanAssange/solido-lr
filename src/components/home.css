@@ -24,7 +24,7 @@
   }
 
   
-  nav .logo {
+  .logo {
     width: 75px;
     cursor: pointer;
     top: 0;
@@ -37,13 +37,13 @@
 }
   
 
-  nav ul li{
+.homeli{
     list-style: none;
     display: inline-block;
     margin-left: 40px;
   }
 
- nav ul li::after {
+  .homeli::after {
     content: "";
     width: 0%;
     height: 2px;
@@ -53,10 +53,10 @@
     margin-top: 3px;
     transition: 0.5s; }
   
-nav ul li:hover::after {
+  .homeli:hover::after {
     width: 100%; }
 
-  nav ul li a{
+  .homeli a{
     text-decoration: none;
     color: #fff;
     font-size: 17px;
@@ -78,8 +78,9 @@ nav ul li:hover::after {
     font-size: 24px;
     border: 2px solid #fff;
     padding: 14px 70px;
-    border-radius: 50px;
+    border-radius: 30px;
     margin-top: 20px;
+    margin-left: 25px;
     transition: 0.3s;
   }
 

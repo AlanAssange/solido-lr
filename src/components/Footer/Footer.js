@@ -6,7 +6,6 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { faLocationDot} from '@fortawesome/free-solid-svg-icons'
-import { faPhone} from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import "./Footer.scss"
 import "../../media/Imgs/solidobw.png"
@@ -19,7 +18,7 @@ export const Footer = () => {
                     {/* <h2>About us</h2> */}
                     <img className='solido-logo' src="https://i.ibb.co/rFB6tZz/solidobw.png"/>
                     <div className='content'>
-                        <p>SolidoCS: Connecting Solutions</p>
+                        <p>Sólido Connecting Solutions</p>
                         <div className='social'>
                             <a href="#facebook"><span><FontAwesomeIcon className="brandicon" icon={faFacebookF}/></span></a>
                             <a href="#facebook"><span><FontAwesomeIcon className="brandicon" icon={faTwitter}/></span></a>
@@ -57,7 +56,7 @@ export const Footer = () => {
         </div>
         <div className='bottom'>
             <center>
-                <span className='credit'>Creado por <a href="#">Solido: Connecting Solutions</a> | © 2022 - Todos los derechos reservados. </span>
+                <span className='credit'>Creado por <a href="#">Solido Connecting Solutions</a> | © 2022 - Todos los derechos reservados. </span>
             </center>
         </div>
 

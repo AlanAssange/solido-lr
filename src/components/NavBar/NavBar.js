@@ -1,5 +1,6 @@
 import React from 'react'
 import solidoc from "../../media/Imgs/solidoic.png"
+import { Link } from 'react-router-dom'
 import "./NavBar.scss"
 
 export const NavBar = () => {
@@ -10,10 +11,12 @@ export const NavBar = () => {
 
           <img src={solidoc} className="logo"/>
           <ul>
-            <li><a>INICIO</a></li> 
+          <Link to="/"><li>INICIO</li></Link>
             <li><a href="#">SERVICIOS</a></li>
-            <li><a href='#'>EQUIPO</a></li>
-            <li><a href='#'>CONTACTANOS</a></li>
+            {/* <li><a href='#'>EQUIPO</a></li> */}
+            <li><a href='https://soporte.solidcloud.com.ar/'>SOPORTE</a></li>
+            <li>LOGIN</li>
+            
           </ul>
           </nav>
 		 

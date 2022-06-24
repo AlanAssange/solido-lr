@@ -1,3 +1,4 @@
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeadset } from '@fortawesome/free-solid-svg-icons'
 import { faCloudArrowDown } from '@fortawesome/free-solid-svg-icons'
@@ -6,21 +7,18 @@ import { faFileCode } from '@fortawesome/free-solid-svg-icons'
 import { faLock } from '@fortawesome/free-solid-svg-icons'
 import { faServer } from '@fortawesome/free-solid-svg-icons'
 import { faWifi } from '@fortawesome/free-solid-svg-icons'
-
-import React from 'react'
 import "./OurServs.scss"
 
 export const OurServs = () => {
   return (
     <div className='a'>
             <div className='servs'>
-            <h1 className='al_servs'>Alcances y Servicios</h1>
-            <p>Nuestro alcance para ayudar a nuestros clientes nos hace la mejor opción cuando necesitan una respuesta rápida, flexible e innovadora. Construimos relaciones a largo plazo.</p> 
+            <h1 className='al_servs'>Catálogo de servicios</h1>
+            <p>Nuestros servicios están creados para <b>acompañar</b> a nuestros clientes y brindar la mejor opción cuando necesitan una respuesta eficiente e innovadora. Es nuestro compromiso construir relaciones de confianza con el <b>objetivo de satisfacer</b> en plenitud toda alternativa de proyección a futuro.</p> 
             </div>
             <hr/>
             <h2><FontAwesomeIcon className='icon_servs' icon={faHeadset}/>Asistencia tecnológica integral</h2>
             <div className='our_servs'>
-             
               <div className='child_servs'><h3>Descripción del servicio</h3>
               <p className='child_par_servs'>Este servicio permite al USUARIO, ponerse en contacto con un técnico experto informático con el fin de disponer de soporte o asistencia técnica, en tiempo real, para solucionar cualquier incidencia respecto a la seguridad en sus equipos informáticos, tablets, smartphone o cualquier dispositivo conectado (tanto hardware como software) de uso más frecuente en el hogar o negocio comprendidas en el ámbito objeto del servicio suscrito por el USUARIO.Si fuera necesario y en función del tipo de consulta, el técnico podrá evaluar y/o resolver la incidencia, de manera inmediata, tomando el control remoto del dispositivo, previa aceptación por parte del USUARIO y sin necesidad de que el USUARIO tenga que desplazarse de su domicilio y/u oficina. Fractalia garantiza que su personal nunca podrá acceder a los equipos del USUARIO en otras circunstancias que no sean las anteriormente descritas.</p>
               <p>Entre otras, se prestará asistencia sobre los siguientes tipos de incidencias:</p>
@@ -72,8 +70,8 @@ export const OurServs = () => {
              <div className='child_servs'><h3>Descripción del servicio</h3>
              <p className='child_par_servs'>El servicio de recuperación de datos Backup es un servicio de soporte, configuración o recuperación de información de los datos que los USUARIOS hayan guardado en diferentes medios de copia de seguridad.
 
-Con la Recuperación de datos Backup le ofrecemos el servicio de recuperación de información de los datos que usted haya almacenado para aquellos dispositivos de almacenamiento de datos que sufran un daño físico (incendio, daños por agua o accidente entre otros) o lógico (virus, mala utilización o error humano entre otros).</p>
-<h3>Alcance del Servicio</h3>
+                Con la Recuperación de datos Backup le ofrecemos el servicio de recuperación de información de los datos que usted haya almacenado para aquellos dispositivos de almacenamiento de datos que sufran un daño físico (incendio, daños por agua o accidente entre otros) o lógico (virus, mala utilización o error humano entre otros).</p>
+             <h3>Alcance del Servicio</h3>
              <p>Las fuentes de datos podrán ser:</p>
              <p>• Servicios cloud Dropbox, Drive, icloud, etc….</p>
              <p>• Servicios de Backup Acronis, O365, etc….</p>
@@ -81,7 +79,7 @@ Con la Recuperación de datos Backup le ofrecemos el servicio de recuperación d
              <p>Nuestros técnicos restablecerán los datos en los mismos soportes donde fueron copiados siempre que sea posible o en soportes alternativos que indique el cliente.</p>
              <p>Estas prestaciones podrán variar en función del sistema operativo y firmware de los dispositivos.</p>
              
-           </div>
+            </div>
              <div className='child_servs'>
              <h3>Nivel de Servicio</h3>
              <p>Cada USUARIO podrá utilizar este servicio siempre que lo necesite, sin que existan restricciones de uso, ni en el número de solicitudes , ni en el tiempo de utilización.</p>

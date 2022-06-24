@@ -18,11 +18,7 @@ export const Home = () => {
         <nav className='nav'>
           <img src={solidoc} className="logo"/>
           <ul>
-            {/* <li><a>INICIO</a></li> */}
-            <li><a className='nav_prim' href="#">SERVICIOS</a></li>
-            <li><a className='nav_prim' href='#'>EQUIPO</a></li>
             <li><a className='nav_prim' href='https://soporte.solidcloud.com.ar/'>SOPORTE</a></li>
-            
           </ul>
           </nav>
           <div className="contents" >

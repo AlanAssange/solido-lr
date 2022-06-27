@@ -1,0 +1,137 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.pexels.com/photos/4488640/pexels-photo-4488640.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.navigation-new{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 75px;
+    margin-left: 20px;
+    cursor: pointer;
+    top: 0;
+    }
+
+.bar-btn{
+    font-size: 25px;
+    color: #fff;
+    margin-right:20px;
+    cursor: pointer;
+}
+
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background: rgba(0,0,0, .95);
+    text-align: center;
+    transition: all .5s;
+
+    li{
+        display: none;
+        line-height: 30px;
+        margin: 50px 0;
+        transition: all .5s;
+    }
+
+    a{
+    color: #fff;
+    font-size: 16px;
+    }
+}
+
+
+
+#check {
+    display: none;
+}
+
+#check:checked ~ .nav-menu{
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li {
+    display: block;
+}
+
+.banner-text {
+    padding: 0 30px;
+    margin-top: 150px;
+    text-align: center;
+    color: #fff;
+
+    h1{
+        font-size: 50px;
+        margin-bottom:30px;
+
+    }
+
+    h2{
+        color: #fff;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .logo {
+        margin-left: 50px;
+    }
+
+    .navigation-new{
+        height: 100px;
+    }
+    
+    .bar-btn{
+        display: none;
+    }
+
+    .nav-menu{
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 50px;
+
+        li {
+            display: inline-block;
+            line-height: 100px;
+            margin: 0 20px;
+            transition: none;
+        }
+
+        a {
+            font-size: 18px;
+        }
+
+    }
+    
+    .banner-text{
+        h1 {
+            font-size: 70px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 50px;
+        }
+    }
+}

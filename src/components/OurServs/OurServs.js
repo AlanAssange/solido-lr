@@ -20,24 +20,25 @@ export const OurServs = () => {
             <h2><FontAwesomeIcon className='icon_servs' icon={faHeadset}/>Asistencia tecnológica integral</h2>
             <div className='our_servs'>
               <div className='child_servs'><h3>Descripción del servicio</h3>
-              <p className='child_par_servs'>Este servicio permite al USUARIO, ponerse en contacto con un técnico experto informático con el fin de disponer de soporte o asistencia técnica, en tiempo real, para solucionar cualquier incidencia respecto a la seguridad en sus equipos informáticos, tablets, smartphone o cualquier dispositivo conectado (tanto hardware como software) de uso más frecuente en el hogar o negocio comprendidas en el ámbito objeto del servicio suscrito por el USUARIO.Si fuera necesario y en función del tipo de consulta, el técnico podrá evaluar y/o resolver la incidencia, de manera inmediata, tomando el control remoto del dispositivo, previa aceptación por parte del USUARIO y sin necesidad de que el USUARIO tenga que desplazarse de su domicilio y/u oficina. Fractalia garantiza que su personal nunca podrá acceder a los equipos del USUARIO en otras circunstancias que no sean las anteriormente descritas.</p>
-              <p>Entre otras, se prestará asistencia sobre los siguientes tipos de incidencias:</p>
-              <p>• Resolución de incidencias que tenga el USUARIO con el dispositivo (problemas con dispositivos, accesoa Internet, correo electrónico, virus y otras incidencias de carácter general)</p>
-              <p>• Asistencia para las aplicaciones más frecuentes (paquete Office, correo electrónico, navegación por Internet, antivirus, cortafuegos, tratamiento de gráficos y otras aplicaciones de uso frecuente)</p>
-              <p>• Configuración del sistema operativo</p>
-              <p>• Conexión de dispositivos entre sí (impresoras, escáner, video cámaras, etc…)</p>
-              <p>• Problemas de conexión a Internet (conexión WiFi o cableada)</p>
+              <p className='child_par_servs'>Este servicio permite al usuario ponerse en  contacto  con  un  técnico  experto informático  con  el  fin  de  disponer  de soporte o asistencia técnica, en tiempo real, para solucionar cualquier inciden-cia respecto a la seguridad en sus equi-pos  informáticos,  tablets,  smartphone o cualquier dispositivo conectado (tanto hardware  como  software)  de  uso  más frecuente  en  el  hogar  o  negocio  com-prendidas en el ámbito objeto del ser-vicio  suscrito  por  el usuario.  Si  fuera necesario  y  en  función del tipo de consulta, el técnico podrá evaluar y/o resolver la incidencia, de manera inme-diata,  tomando  el  control remoto  del dispositivo,  previa  aceptación  por  parte del USUARIO y sin necesidad de que el USUARIO  tenga  que  desplazarse de  su domicilio y/u oficina. SolidoCS garantiza que su personal nunca podrá acceder  a los   equipos   del   USUARIO   en   otras circunstancias que no sean las anterior-mente descritas.</p>
+              <p><b>Entre otras, se prestará asistencia sobre los siguientes tipos de incidencias:</b></p>
+              <p><b>•</b> Resolución  de  incidencias  que  tenga  el  usuario con  el  dispositivo  (problemas  con  dispositivos, acceso a Internet, correo electrónico, virus y otras incidencias de carácter general)</p>
+              <p><b>•</b> Asistencia para las aplicaciones más frecuentes (paquete  Office,  correo  electrónico,  navegación por Internet, antivirus, cortafuegos, tratamiento de gráficos y otras aplicaciones de uso frecuente)</p>
+              <p><b>•</b> Configuración del sistema operativo</p>
+              <p><b>•</b> Conexión de dispositivos entre sí (impresoras, escáner, video cámaras, etc…)</p>
+              <p><b>•</b> Problemas de conexión a Internet (conexión WiFi o cableada)</p>
               <p>Los dispositivos a soportar incluyen PC Windows, MAC OSX, Smartphone Android y IOS, Tablets y periféricos a conectar a los mismos.
                 El servicio se prestará de forma telemática a través de una URL de servicio.
-                Fractalia se encargará del mantenimiento y actualización de dicha página web con el fin de mantener correctamente informados a los USUARIOS del servicio prestado. En la página web se incluirán las condiciones generales de uso de los servicios.</p>
+                SolidoCS se encargará del mantenimiento y actualización de dicha página web con el fin de mantener correctamente informados a los USUARIOS del servicio prestado. En la página web se incluirán las condiciones generales de uso de los servicios.</p>
             </div>
               <div className='child_servs'><h3>Verificación del derecho a la prestación del Servicio por parte de SólidoCS</h3>
-              <p>Fractalia se compromete a verificar el derecho a la prestación del servicio por parte del USUARIO. El Cliente facilitará periódicamente a Fractalia una base de datos con los USUARIOS que tienen derecho a la prestación del servicio o acceso vía webservices para una verificación en tiempo real.</p>
+              <p>SolidoCS se compromete a verificar el derecho a la prestación del servicio por parte del USUARIO. El Cliente facilitará periódicamente a SolidoCS una base de datos con los USUARIOS que tienen derecho a la prestación del servicio o acceso vía webservices para una verificación en tiempo real.</p>
               <h3>Herramientas y limitaciones</h3>
-              <p>Fractalia prestará el servicio de Asistencia Tecnológica Remota a través de una herramienta de:</p>
-              <p>| chat–control remoto</p>
-              <p>| del teléfono de asistencia (sólo en los momentos en los que el USUARIO no tenga acceso a Internet)</p>
-              <p>El servicio se prestará las 24 horas, los 365 días del año . Fractalia también podrá disponer de aplicaciones instalables para facilitar el uso del servicio a los USUARIOS. El USUARIO podrá acceder a los servicios sin necesidad de instalar ninguna aplicación, a través de chat online. La primera vez que el USUARIO acceda al servicio deberá registrarse, facilitando todos los datos necesarios para poder identificarle y garantizar la prestación del servicio. En sucesivas ocasiones, tan sólo deberá introducir sus claves de acceso para que Fractalia valide su identidad.</p>
+              <p>SolidoCS prestará el servicio de Asistencia Tecnológica Remota a través de una herramienta de:</p>
+              <p><b>•</b> Chat–control remoto</p>
+              <p><b>•</b> Del teléfono de asistencia (sólo en los momentos en los que el USUARIO no tenga acceso a Internet)</p>
+              <p><b>El servicio se prestará los días lunes a viernes de 9 a 18hs y sábado de 9 a 13hs</b>.</p>
+              <p>SolidoCS también podrá disponer de aplicaciones instalables para facilitar el uso del servicio a los USUARIOS. El USUARIO podrá acceder a los servicios sin necesidad de instalar ninguna aplicación, a través de chat online. La primera vez que el USUARIO acceda al servicio deberá registrarse, facilitando todos los datos necesarios para poder identificarle y garantizar la prestación del servicio. En sucesivas ocasiones, tan sólo deberá introducir sus claves de acceso para que Fractalia valide su identidad.</p>
               <p>Adicionalmente, en caso de que el USUARIO no pueda contactar su equipo a Internet, podrá solicitar asistencia por teléfono, siendo la atención vía chat la opción recomendada.
               </p>
               <p>Límite en la utilización del servicio : No existirá límite en la utilización del servicio por lo que el asegurado podrá solicitar durante la duración del contrato o licencia, todas las asistencias que estime necesarias.</p>

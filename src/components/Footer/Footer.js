@@ -9,6 +9,7 @@ import { faLocationDot} from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import "./Footer.scss"
 import "../../media/Imgs/solidobw.png"
+import { GoogleMaps } from '../helpers/GoogleMaps'
 
 export const Footer = () => {
   return (
@@ -48,9 +49,7 @@ export const Footer = () => {
                 <div className='right box'>
                     <h2>donde ubicarnos</h2>
                     <div className='content'>
-                    <p>Mapa</p>
-                        <p>En construcción - TBA</p>
-                    <p>React Google Maps - Wrapper</p>
+                    <GoogleMaps/>
                     </div>
                 </div>
         </div>

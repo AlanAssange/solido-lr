@@ -99,6 +99,32 @@
 /* 
   RESPONSIVE PART */
 
+  @media (max-width: 1400px) {
+
+    .nav-menuc a {
+      color: #fff;
+      font-size: 15px;
+    }
+
+    .logo {
+      width: 60px;
+    }
+
+    .log_landing {
+      width: 500px;
+    }
+
+    .log_p{
+      font-size: 20px;
+    }
+
+    .content_button{
+      font-size: 15px;
+      padding: 16px 70px;
+     
+    }
+  }
+
   @media (max-width: 700px) {
 
     .logo {

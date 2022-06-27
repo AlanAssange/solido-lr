@@ -12,7 +12,7 @@ export const Header = () => {
     <header>
         <nav className='navigation-new'>
             <div>
-                <img src={solidoc} className="logo"/>
+                <img src={solidoc} className="logoc"/>
             </div>
             <input type="checkbox" id="check"/>
             <label for="check" className='bar-btn'>

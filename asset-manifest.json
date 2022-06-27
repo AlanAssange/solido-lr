@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/solido-lr/static/css/main.bcc91415.css",
+    "main.css": "/solido-lr/static/css/main.cb77b777.css",
     "main.js": "/solido-lr/static/js/main.e27122df.js",
     "static/js/787.0a251920.chunk.js": "/solido-lr/static/js/787.0a251920.chunk.js",
     "static/media/loopedw.mp4": "/solido-lr/static/media/loopedw.52e8933b6c462b590514.mp4",
     "static/media/solidobw.png": "/solido-lr/static/media/solidobw.79f0889e4b211d35ad91.png",
     "static/media/solidoicw.png": "/solido-lr/static/media/solidoicw.3a251992db345fa98b06.png",
     "index.html": "/solido-lr/index.html",
-    "main.bcc91415.css.map": "/solido-lr/static/css/main.bcc91415.css.map",
+    "main.cb77b777.css.map": "/solido-lr/static/css/main.cb77b777.css.map",
     "main.e27122df.js.map": "/solido-lr/static/js/main.e27122df.js.map",
     "787.0a251920.chunk.js.map": "/solido-lr/static/js/787.0a251920.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcc91415.css",
+    "static/css/main.cb77b777.css",
     "static/js/main.e27122df.js"
   ]
 }

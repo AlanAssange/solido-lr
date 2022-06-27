@@ -118,3 +118,24 @@
       display: block;
     }
   }
+
+  @media (max-width: 350px) {
+
+    .logo {
+      display: none;
+    }
+
+    .log_landing{
+      width: 200px;
+    }
+    
+    .log_p {
+      font-size: 10px;
+    }
+    .content_button{
+      font-size: 15px;
+      padding: 16px 30px;
+      display: block;
+      margin-left: 0;
+    }
+  }

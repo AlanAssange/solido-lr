@@ -21,14 +21,16 @@ header {
 }
 
 .logo {
-    width: 75px;
+    width: 85px;
+    margin-top: 25px;
     margin-left: 20px;
     cursor: pointer;
     top: 0;
     }
 
 .bar-btn{
-    font-size: 25px;
+    margin-top: 25px;
+    font-size: 35px;
     color: #fff;
     margin-right:20px;
     cursor: pointer;
@@ -55,6 +57,21 @@ header {
     font-size: 16px;
     }
 }
+
+
+
+// nav ul li::after {
+//     content: "";
+//     width: 0%;
+//     height: 2px;
+//     background: #C5027B;
+//     display: block;
+//     margin: auto;
+//     margin-top: 0px;
+//     transition: 0.5s; }
+  
+// nav ul li:hover::after {
+//     width: 100%; }
 
 
 
@@ -85,13 +102,18 @@ header {
     h2{
         color: #fff;
     }
+
+    b{
+        color: #C5027B;
+    }
 }
 
 
 @media screen and (min-width: 768px) {
 
     .logo {
-        margin-left: 50px;
+        margin-top: 25px;
+        margin-left: 100px;
     }
 
     .navigation-new{
@@ -105,7 +127,7 @@ header {
     .nav-menu{
         position: relative;
         height: 100px;
-        top: 0;
+        top: 15px;
         background: none;
         transition: none;
         text-align: right;

@@ -16,7 +16,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    padding: 20px 8%;
+    padding: 1px 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,11 +31,7 @@
     
   }
 
-.nav_prim {
-  text-decoration: none;
-    color: #fff;
-}
-  
+
 
 .homeli{
     list-style: none;
@@ -111,4 +107,15 @@
     width: auto;
     height: 100%;
   }
+  }
+
+/* 
+  RESPONSIVE PART */
+
+  @media (max-width: 700px) {
+
+    .log_landing{
+      width: 400px;
+    }
+
   }

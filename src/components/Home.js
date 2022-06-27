@@ -14,11 +14,10 @@ export const Home = () => {
         <video width="100%"  loop muted autoPlay className='land_head' >
             <source src={header} type="video/mp4"/>
         </video>
-
         <nav className='nav'>
           <img src={solidoc} className="logo"/>
-          <ul>
-            <li><a className='nav_prim' href='https://soporte.solidcloud.com.ar/'>SOPORTE</a></li>
+          <ul className="nav-menu ">
+            <li><a href='https://soporte.solidcloud.com.ar/'>SOPORTE</a></li>
           </ul>
           </nav>
           <div className="contents" >

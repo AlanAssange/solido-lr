@@ -89,7 +89,7 @@
 
 
   
-  .contents p {
+  .log_p {
     color: #fff;
     font-size: 25px;
     
@@ -114,8 +114,19 @@
 
   @media (max-width: 700px) {
 
+    .logo {
+      display: none;
+    }
+
     .log_landing{
       width: 400px;
     }
-
+    
+    .log_p {
+      font-size: 20px;
+    }
+    .content_button{
+      font-size: 15px;
+      padding: 16px 60px;
+    }
   }

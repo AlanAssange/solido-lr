@@ -7,10 +7,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-    
+  
   }
 
-  
   .nav{
     width: 84%;
     position: absolute;
@@ -39,18 +38,6 @@
     margin-left: 40px;
   }
 
-  .homeli::after {
-    content: "";
-    width: 0%;
-    height: 2px;
-    background: #C5027B;
-    display: block;
-    margin: auto;
-    margin-top: 3px;
-    transition: 0.5s; }
-  
-  .homeli:hover::after {
-    width: 100%; }
 
   .homeli a{
     text-decoration: none;
@@ -128,5 +115,6 @@
     .content_button{
       font-size: 15px;
       padding: 16px 60px;
+      display: block;
     }
   }

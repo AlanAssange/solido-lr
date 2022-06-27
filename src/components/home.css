@@ -138,4 +138,15 @@
       display: block;
       margin-left: 0;
     }
+
+    .land_head{
+      display: none;
+     
+    }
+
+    .vid_landing{
+      background-image: url(https://i.ibb.co/rx0G1z2/2022-06-27-16-21-03-Solido-Connecting-Solutions-Brave.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   }

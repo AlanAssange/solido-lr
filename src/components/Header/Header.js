@@ -20,7 +20,7 @@ export const Header = () => {
             </label>
             <ul className='nav-menu'>
                 <li><Link to="/solido-lr">INICIO</Link></li>
-                <li><a  href='https://soporte.solidcloud.com.ar/'>CLIENTES</a></li>
+                <li><a  href='https://soporte.solidcloud.com.ar/'>SERVICIOS</a></li>
                 <li><a href='https://soporte.solidcloud.com.ar/'><FontAwesomeIcon icon={faUser}/> LOGIN</a></li>
             </ul>
         </nav>

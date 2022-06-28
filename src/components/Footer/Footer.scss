@@ -140,3 +140,45 @@ footer {
     
 }
 
+@media(max-width:700px){
+
+    .solido-logo{
+        width: 250px;
+    }
+
+    .center{
+        .content {
+
+            .phone {
+                p {
+                    font-size: 15px;
+                }
+            }
+
+            .text{
+                font-size: 0.85rem;
+            }
+            .svgicons {
+                font-size: 1.320rem;
+            }
+        }
+    }
+
+    .main-content{  
+
+    .box{
+        
+        h2 {
+            font-size: 0.80rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            }
+        }
+    }
+
+    center .credit {
+        font-size: 0.70rem;
+    }
+   
+}
+

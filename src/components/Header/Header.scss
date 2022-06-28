@@ -182,9 +182,16 @@ header {
         }
     }
 
-    
+}
 
+@media(max-width: 700px){
+    .banner-text{
+        h1{
+            font-size: 40px;
+        }
 
-
-
+        h2{
+            font-size: 30px;
+        }
+    }
 }

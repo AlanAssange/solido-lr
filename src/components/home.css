@@ -17,9 +17,15 @@
     left: 0;
     padding: 1px 8%;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: space-between;
     font-weight: 300;
+  }
+
+  .nav-menuc a {
+    text-decoration: none;
+    color: #fff;
   }
 
   
@@ -127,6 +133,10 @@
 
   @media (max-width: 700px) {
 
+    .nav-menuc{
+      display: none;
+    }
+    
     .logo {
       display: none;
     }

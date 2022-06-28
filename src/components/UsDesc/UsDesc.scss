@@ -46,3 +46,39 @@
     
     }
 }
+
+// RESPONSIVE PART
+
+@media (max-width: 1400px){
+
+    .about_sec{
+        height: 100vh;
+    }
+
+
+    .img_sec{
+        width: 23%;
+    }
+
+    .text_sec{
+        h1{
+            font-size: 28px;
+        }
+
+        h2{
+            font-size: 20px;
+        }
+
+        h3{
+            font-size: 16px;
+        }
+
+        p{
+            font-size: 14px;
+        }
+        
+        
+    }
+
+    
+}

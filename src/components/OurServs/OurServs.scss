@@ -83,3 +83,45 @@
     font-size: 60px;
     color: #000;
 }
+
+
+// RESPONSIVE PART
+
+@media (max-width:1400px){
+
+    .a {
+        .icon_servs{
+            font-size: 50px;
+        }
+
+        h2{
+            font-size: 35px;
+        }
+    }
+
+    .servs {
+        p{
+            font-size: 25px;
+        }
+    }
+
+    .al_servs {
+        margin-top: 25px;
+        font-size: 55px;
+       
+    }
+
+    .our_servs {
+        .child_servs{
+            margin: 15px 40px 2px 80px;
+
+            h3{
+                font-size: 20px;
+            }
+
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}

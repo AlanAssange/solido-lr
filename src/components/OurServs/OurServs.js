@@ -14,7 +14,7 @@ export const OurServs = () => {
     <div className='a'>
             <div className='servs'>
             <h1 className='al_servs'>Catálogo de servicios</h1>
-            <p>Nuestros servicios están creados para <b>acompañar</b> a nuestros clientes y brindar la mejor opción cuando necesitan una respuesta eficiente e innovadora. Es nuestro compromiso construir relaciones de confianza con el <b>objetivo de satisfacer</b> en plenitud toda alternativa de proyección a futuro.</p> 
+            <p className='al_servs_par'>Nuestros servicios están creados para <b>acompañar</b> a nuestros clientes y brindar la mejor opción cuando necesitan una respuesta eficiente e innovadora. Es nuestro compromiso construir relaciones de confianza con el <b>objetivo de satisfacer</b> en plenitud toda alternativa de proyección a futuro.</p> 
             </div>
             <hr/>
             <h2><FontAwesomeIcon className='icon_servs' icon={faHeadset}/>Asistencia tecnológica integral</h2>

@@ -132,6 +132,10 @@
 
 
 @media (max-width: 449px){
+
+    .about_sec{
+        height: 90vh;
+    }
     .text_sec{
         h1{
             font-size: 20px;
@@ -142,11 +146,11 @@
         }
 
         h3{
-            font-size: 13px;
+            font-size: 14px;
         }
 
         p{
-            font-size: 13px;
+            font-size: 14px;
         }
         }
 }

@@ -195,3 +195,27 @@ header {
         }
     }
 }
+
+
+@media(max-width: 500px){
+    .banner-text{
+        h1{
+            font-size: 30px;
+        }
+
+        h2{
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .banner-text {
+        h1{
+            font-size: 26px;
+        }
+        h2{
+            font-size: 17px;
+        }
+    }
+}

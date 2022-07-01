@@ -237,6 +237,28 @@
 
 // RESPONSIVE SERVICIOS SOLIDO
 
+
+@media (max-width:1200px){
+
+    .our_servs{
+
+       .child_servs{
+
+        margin: 0px 30px 2px 42px;
+        h3{
+            font-size: 16px;
+
+        }
+
+        p{
+            font-size: 14px;
+        }
+       }
+       
+
+    }
+}
+
 @media (max-width:580px){
 
     .a {
@@ -267,3 +289,35 @@
 
     }
 }
+
+@media (max-width:786px){
+
+    .a {
+       .icon_servs{
+        font-size: 32px;
+       }
+
+       h2 {
+        font-size: 22px;
+        padding: 0 20px;
+       }
+    }
+    .our_servs{
+
+       .child_servs{
+
+        margin: 0px 30px 2px 19px;
+        h3{
+            font-size: 14px;
+
+        }
+
+        p{
+            font-size: 12px;
+        }
+       }
+       
+
+    }
+}
+

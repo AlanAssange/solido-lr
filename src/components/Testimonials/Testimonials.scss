@@ -1,0 +1,73 @@
+.genTitles {
+    margin-top: 55px;
+    font-size: 30px;
+    font-weight: 600; }
+
+.wrapper {
+    width: 85%;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+   margin-bottom: 35px;
+   
+}
+
+.wrapper .box{
+    background: #fff;
+    padding: 25px;
+}
+
+.wrapper .box .content{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper .box .fa-quote-left{
+    font-size: 20px;
+    color: #ffe600;
+}
+
+.wrapper .box .info .name{
+    font-size: 17px;
+    font-weight: 600;
+    color: #000000;}
+.job{
+    font-weight: 600;
+    color: #000000;
+}
+
+.wrapper .box .info .job{
+    font-size: 16px;
+}
+
+.wrapper .box .info .fa-star{
+    margin-top: 2px;
+}
+
+.box .info .fa-star{
+    color: #C5027B;
+}
+
+.image{
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+}
+
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.testTitle{
+    margin-top: 40px;
+   text-align: center;
+}
+

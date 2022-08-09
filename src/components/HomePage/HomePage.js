@@ -3,6 +3,7 @@ import { Footer } from '../Footer/Footer'
 import { Header } from '../Header/Header'
 import { OurServs } from '../OurServs/OurServs'
 import { UsDesc } from '../UsDesc/UsDesc'
+import { Testimonials } from "../Testimonials/Testimonials"
 import "./HomePage.scss"
 
 export const HomePage = () => {
@@ -11,6 +12,7 @@ export const HomePage = () => {
         <Header/>
         <UsDesc/>
         <OurServs/>
+        <Testimonials/>
         <Footer/>
     </div>
   )

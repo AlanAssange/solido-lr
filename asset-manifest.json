@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/solido-lr/static/css/main.78bc7277.css",
-    "main.js": "/solido-lr/static/js/main.2e784f40.js",
+    "main.css": "/solido-lr/static/css/main.3ddc9095.css",
+    "main.js": "/solido-lr/static/js/main.ace22a94.js",
     "static/js/787.0a251920.chunk.js": "/solido-lr/static/js/787.0a251920.chunk.js",
     "static/media/loopedw.mp4": "/solido-lr/static/media/loopedw.52e8933b6c462b590514.mp4",
     "static/media/solidobw.png": "/solido-lr/static/media/solidobw.79f0889e4b211d35ad91.png",
     "static/media/solidoicw.png": "/solido-lr/static/media/solidoicw.3a251992db345fa98b06.png",
     "index.html": "/solido-lr/index.html",
-    "main.78bc7277.css.map": "/solido-lr/static/css/main.78bc7277.css.map",
-    "main.2e784f40.js.map": "/solido-lr/static/js/main.2e784f40.js.map",
+    "main.3ddc9095.css.map": "/solido-lr/static/css/main.3ddc9095.css.map",
+    "main.ace22a94.js.map": "/solido-lr/static/js/main.ace22a94.js.map",
     "787.0a251920.chunk.js.map": "/solido-lr/static/js/787.0a251920.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78bc7277.css",
-    "static/js/main.2e784f40.js"
+    "static/css/main.3ddc9095.css",
+    "static/js/main.ace22a94.js"
   ]
 }

@@ -6,6 +6,8 @@ import { UsDesc } from '../UsDesc/UsDesc'
 import { Testimonials } from "../Testimonials/Testimonials"
 import "./HomePage.scss"
 
+
+
 export const HomePage = () => {
   return (
     <div className="home_relative">

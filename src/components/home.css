@@ -13,6 +13,7 @@
   .nav{
     width: 84%;
     position: absolute;
+    margin-top: 25px;
     top: 0;
     left: 0;
     padding: 1px 8%;

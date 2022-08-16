@@ -51,14 +51,21 @@ header {
         margin: 50px 0;
         transition: all .5s;
     }
+    
 
     a{
     color: #fff;
     font-size: 16px;
     }
+    a:hover{
+        color:#f50a9b;
+    }
 }
 
-
+#tsparticles {
+    position: absolute;
+   
+}
 
 
 // nav ul li::after {
@@ -112,6 +119,10 @@ header {
 
 @media screen and (min-width: 768px) {
 
+    
+
+    
+   
     .logoc {
         margin-top: 25px;
         margin-left: 100px;
@@ -187,6 +198,11 @@ header {
 }
 
 @media(max-width: 700px){
+
+    #tsparticles {
+        visibility: hidden;
+    }
+
     .banner-text{
         h1{
             font-size: 40px;

@@ -71,3 +71,14 @@
    text-align: center;
 }
 
+
+// RESPONSIVE PART 
+
+@media (max-width: 1300px){
+    .paragraph {
+     font-size: 14px;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;}
+ }

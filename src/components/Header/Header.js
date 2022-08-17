@@ -25,7 +25,7 @@ export const Header = ( ) => {
             <Link to="/solido-lr"><img src={solidoc} className="logoc"/></Link>
             </div>
             <input type="checkbox" id="check"/>
-            <label for="check" className='bar-btn'>
+            <label htmlFor="check" className='bar-btn'>
                 <FontAwesomeIcon  icon={faBars}/>
             </label>
             <ul className='nav-menu'>

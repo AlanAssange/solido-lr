@@ -15,7 +15,7 @@ export const Footer = () => {
   return (
     <footer>
         <div className='main-content'>
-                <div class="left box">
+                <div className="left box">
                     {/* <h2>About us</h2> */}
                     <img className='solido-logo' src="https://i.ibb.co/rFB6tZz/solidobw.png"/>
                     <div className='content'>

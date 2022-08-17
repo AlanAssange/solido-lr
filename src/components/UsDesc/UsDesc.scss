@@ -109,6 +109,27 @@
         }
 }
 
+@media (max-width: 530px){
+    .text_sec{
+        h1{
+            font-size: 22px;
+        }
+
+        h2{
+            font-size: 18px;
+        }
+
+        h3{
+            font-size: 14px;
+        }
+
+        p{
+            font-size: 13px;
+        }
+        }
+}
+
+
 
 @media (max-width: 465px){
     .text_sec{

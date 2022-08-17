@@ -15,6 +15,7 @@ footer {
 
 .main-content {
     display: flex;
+    
     .box{
         flex-basis: 50%;
         padding: 10px 20px;
@@ -58,6 +59,7 @@ footer {
                     padding: 0 2px;
                     :hover{
                         background: #C5027B;
+                        transition: all 0.1s
                     }
                     
                     span {

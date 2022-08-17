@@ -1,7 +1,6 @@
 .vid_landing {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(145, 14, 94, 0.3),rgba(5, 1, 24, 0.3));
   position: relative;
   padding: 0;
   display: flex;
@@ -29,10 +28,12 @@
     color: #fff;
   }
 
+  .nav-menuc a:hover {
+    color: #f837ae;
+  }
   
   .logo {
     width: 75px;
-    cursor: pointer;
     top: 0;
     
   }

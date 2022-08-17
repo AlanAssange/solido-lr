@@ -360,4 +360,35 @@
     }
 }
 
+@media (max-width:386px){
+
+    .a {
+       .icon_servs{
+        font-size: 32px;
+       }
+
+       h2 {
+        font-size: 22px;
+        padding: 0 20px;
+       }
+    }
+    .our_servs{
+
+       .child_servs{
+
+        margin: 0px 15px 2px 2px;
+        h3{
+            font-size: 12px;
+
+        }
+
+        p{
+            font-size: 11px;
+        }
+       }
+       
+
+    }
+}
+
 

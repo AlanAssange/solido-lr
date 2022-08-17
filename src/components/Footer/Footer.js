@@ -21,10 +21,10 @@ export const Footer = () => {
                     <div className='content'>
                         <p>Sólido Connecting Solutions</p>
                         <div className='social'>
-                            <a href="#facebook"><span><FontAwesomeIcon className="brandicon" icon={faFacebookF}/></span></a>
+                            <a href="https://www.facebook.com/pages/category/Computer-Company/Solido-Connecting-Solutions-293129061253087/"><span><FontAwesomeIcon className="brandicon" icon={faFacebookF}/></span></a>
                             <a href="#facebook"><span><FontAwesomeIcon className="brandicon" icon={faTwitter}/></span></a>
                             <a href="#facebook"><span><FontAwesomeIcon className="brandicon" icon={faInstagram}/></span></a>
-                            <a href="#facebook"><span><FontAwesomeIcon className="brandicon" icon={faLinkedin}/></span></a>
+                            <a href="https://ar.linkedin.com/in/nazareno-giorgi-335286106"><span><FontAwesomeIcon className="brandicon" icon={faLinkedin}/></span></a>
                         </div>
                     </div>
                 </div>
@@ -33,16 +33,16 @@ export const Footer = () => {
                     <div className='content'>
                         <div className='place'>
                         <FontAwesomeIcon className='svgicons' icon={faLocationDot}/>
-                        <span class="text">Mercedes, Buenos Aires</span>
+                        <span className="text">Mercedes, Buenos Aires</span>
                         </div>
                         <div className='phone'>
                             <p>Mesa de Ayuda:</p>
                         <FontAwesomeIcon className='svgicons' icon={faWhatsapp}/>
-                        <span class="text">+2324-683764 ||  +2324-683467</span>
+                        <span className="text">+2324-683764 ||  +2324-683467</span>
                         </div>
                         <div className='email'>
                         <FontAwesomeIcon className='svgicons' icon={faEnvelope}/>
-                        <span class="text">info@solidocs.com.ar</span>
+                        <span className="text">info@solidocs.com.ar</span>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ export const Footer = () => {
         </div>
         <div className='bottom'>
             <center>
-                <span className='credit'>Creado por <a href="#">Solido Connecting Solutions</a> | © 2022 - Todos los derechos reservados. </span>
+                <span className='credit'>Creado por <a href="https://www.facebook.com/pages/category/Computer-Company/Solido-Connecting-Solutions-293129061253087/">Solido Connecting Solutions</a> | © 2022 - Todos los derechos reservados. </span>
             </center>
         </div>
 

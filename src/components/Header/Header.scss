@@ -62,10 +62,6 @@ header {
     }
 }
 
-#tsparticles {
-    position: absolute;
-   
-}
 
 
 // nav ul li::after {
@@ -104,16 +100,24 @@ header {
     h1{
         font-size: 50px;
         margin-bottom:30px;
+        
 
     }
 
     h2{
         color: #fff;
+
+        
     }
 
     b{
         color: #C5027B;
     }
+}
+
+#tsparticles {
+    position: absolute;
+    height: 550px;
 }
 
 
@@ -167,6 +171,7 @@ header {
 
         h2 {
             font-size: 50px;
+
         }
     }
 }

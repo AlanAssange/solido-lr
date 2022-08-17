@@ -22,7 +22,7 @@ export const Header = ( ) => {
     <header>
         <nav className='navigation-new'>
             <div>
-                <img src={solidoc} className="logoc"/>
+            <Link to="/solido-lr"><img src={solidoc} className="logoc"/></Link>
             </div>
             <input type="checkbox" id="check"/>
             <label for="check" className='bar-btn'>
@@ -30,7 +30,7 @@ export const Header = ( ) => {
             </label>
             <ul className='nav-menu'>
                 <li><Link to="/solido-lr">INICIO</Link></li>
-                <li><a  href='https://soporte.solidcloud.com.ar/'>SERVICIOS</a></li>
+                <li><a  href='#servs'>SERVICIOS</a></li>
                 <li><a href='https://soporte.solidcloud.com.ar/'><FontAwesomeIcon icon={faUser}/> LOGIN</a></li>
             </ul>
         </nav>
@@ -116,7 +116,7 @@ export const Header = ( ) => {
             <h2>A TRAVES DE <b>SOLUCIONES TECNOLÓGICAS</b></h2>
         </div>
         <a href="https://wa.me/5492324683764"
-        class="whatsapp_float"
+        className="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer">
             <FontAwesomeIcon icon={faWhatsapp}/>

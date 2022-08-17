@@ -92,15 +92,15 @@
 @media (max-width: 565px){
     .text_sec{
         h1{
-            font-size: 28px;
+            font-size: 26px;
         }
 
         h2{
-            font-size: 20px;
+            font-size: 18px;
         }
 
         h3{
-            font-size: 16px;
+            font-size: 14px;
         }
 
         p{
@@ -134,7 +134,7 @@
 @media (max-width: 449px){
 
     .about_sec{
-        height: 90vh;
+        height: 100vh;
     }
     .text_sec{
         h1{
@@ -150,7 +150,31 @@
         }
 
         p{
-            font-size: 14px;
+            font-size: 12px;
+        }
+        }
+}
+
+@media (max-width: 350px){
+
+    .about_sec{
+        height: 100vh;
+    }
+    .text_sec{
+        h1{
+            font-size: 18px;
+        }
+
+        h2{
+            font-size: 12px;
+        }
+
+        h3{
+            font-size: 11px;
+        }
+
+        p{
+            font-size: 11px;
         }
         }
 }

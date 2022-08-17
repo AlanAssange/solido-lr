@@ -113,7 +113,7 @@ export const Header = ( ) => {
         />
         <div className='banner-text'>
             <h1>LO HACEMOS <b>SIMPLE</b></h1>
-            <h2>A TRAVES DE <b>SOLUCIONES TECNOLÓGICAS</b></h2>
+            <h2>INNOVEMOS <b>JUNTOS</b></h2>
         </div>
         <a href="https://wa.me/5492324683764"
         className="whatsapp_float"

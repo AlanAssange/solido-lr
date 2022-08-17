@@ -6,7 +6,7 @@
 header {
     width: 100%;
     height: 100vh;
-    background: url(https://images.pexels.com/photos/4488640/pexels-photo-4488640.jpeg);
+    background: url(https://images.pexels.com/photos/5380594/pexels-photo-5380594.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -98,20 +98,24 @@ header {
     color: #fff;
 
     h1{
+        margin-top: 180px;
         font-size: 50px;
         margin-bottom:30px;
+        font-weight: 300;
         
 
     }
 
     h2{
         color: #fff;
+        font-weight: 300;
 
         
     }
 
     b{
         color: #C5027B;
+        font-weight: 300;
     }
 }
 

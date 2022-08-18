@@ -7,6 +7,7 @@ header {
     width: 100%;
     height: 100vh;
     background: url(https://images.pexels.com/photos/5380594/pexels-photo-5380594.jpeg);
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -96,27 +97,29 @@ header {
     margin-top: 150px;
     text-align: center;
     color: #fff;
+ 
+
 
     h1{
         margin-top: 170px;
         font-size: 50px;
-        margin-bottom:30px;
-        font-weight: 300;
-        
+        margin-bottom:20px;
+        font-weight: 200;
 
     }
 
-    h2{
-        color: #fff;
-        font-weight: 300;
-
-        
-    }
 
     b{
         color: #C5027B;
         font-weight: 300;
+        text-shadow: -1px -1px 0 #000, 0.5px -1px 0 #000, -1px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+
     }
+}
+
+.typewritercomp {
+    font-weight: 100;
+    font-size: 25px;
 }
 
 #tsparticles {
@@ -171,13 +174,10 @@ header {
     .banner-text{
         h1 {
             font-size: 70px;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
 
-        h2 {
-            font-size: 50px;
-
-        }
+      
     }
 }
 
@@ -194,9 +194,7 @@ header {
             font-size: 60px;
         }
 
-        h2{
-            font-size: 40px;
-        }
+       
     }
 
     .nav-menu{
@@ -231,8 +229,8 @@ header {
             font-size: 30px;
         }
 
-        h2{
-            font-size: 20px;
+        .typewritercomp {
+            font-size: 15px;
         }
     }
 }
@@ -242,7 +240,7 @@ header {
         h1{
             font-size: 26px;
         }
-        h2{
+        .typewritercomp {
             font-size: 17px;
         }
     }

@@ -7,12 +7,12 @@ import solidoc from "../../media/Imgs/solidoicw.png"
 import { Link } from 'react-router-dom'
 import { Particles } from "react-tsparticles"; 
 import { loadFull } from 'tsparticles'
+import TypewriterComponent from 'typewriter-effect'
 import "./Header.scss"
 
 export const Header = ( ) => {
     const particlesInit = useCallback(async (engine) => {
         console.log(engine);
-        // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
         await loadFull(engine);
     }, []);
     const particlesLoaded = useCallback(async (container) => {
@@ -113,7 +113,18 @@ export const Header = ( ) => {
         />
         <div className='banner-text'>
             <h1>LO HACEMOS <b>SIMPLE</b></h1>
-            <h2>INNOVEMOS <b>JUNTOS</b></h2>
+            {/* <h2>INNOVEMOS <b>JUNTOS</b></h2> */}
+            <div className='typewritercomp'>
+            <TypewriterComponent options={{autoStart: true, loop: true}} onInit={(typewriter) => {
+                typewriter
+                .typeString("Innovemos juntos")
+                .pauseFor(3000)
+                .deleteAll()
+                .typeString("A través de soluciones tecnológicas")
+                .pauseFor(3000)
+                .start();
+            }}/>
+            </div>
         </div>
         <a href="https://wa.me/5492324683764"
         className="whatsapp_float"

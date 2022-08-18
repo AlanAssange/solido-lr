@@ -90,6 +90,10 @@
 }
 
 @media (max-width: 565px){
+    .about_sec{
+        height: 68vh;
+    }
+    
     .text_sec{
         h1{
             font-size: 26px;
@@ -110,6 +114,9 @@
 }
 
 @media (max-width: 530px){
+    .about_sec{
+        height: 75vh;
+    }
     .text_sec{
         h1{
             font-size: 22px;
@@ -155,9 +162,10 @@
 @media (max-width: 449px){
 
     .about_sec{
-        height: 100vh;
+        height: 70vh;
     }
     .text_sec{
+        margin-top: 15px;
         h1{
             font-size: 20px;
         }
@@ -179,9 +187,10 @@
 @media (max-width: 350px){
 
     .about_sec{
-        height: 100vh;
+        height: 65vh;
     }
     .text_sec{
+        margin-top: 85px;
         h1{
             font-size: 18px;
         }

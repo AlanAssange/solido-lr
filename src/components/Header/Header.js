@@ -113,7 +113,6 @@ export const Header = ( ) => {
         />
         <div className='banner-text'>
             <h1>LO HACEMOS <b>SIMPLE</b></h1>
-            {/* <h2>INNOVEMOS <b>JUNTOS</b></h2> */}
             <div className='typewritercomp'>
             <TypewriterComponent options={{autoStart: true, loop: true}} onInit={(typewriter) => {
                 typewriter

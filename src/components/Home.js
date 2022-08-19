@@ -16,9 +16,6 @@ export const Home = () => {
         </video>
         <nav className='nav'>
           <img src={solidoc} className="logo"/>
-          <ul className="nav-menuc ">
-            <li><a href='https://soporte.solidcloud.com.ar/'>SOPORTE</a></li>
-          </ul>
           </nav>
           <div className="contents" >
           <img className="log_landing" src={solidocol}/>
